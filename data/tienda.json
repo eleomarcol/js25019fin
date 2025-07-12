@@ -1,0 +1,123 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Banderín Oficial",
+      "precio": 12.99,
+      "imagen": "./media/tienda/banderin.png",
+      "descripcion": "Banderín con el escudo del colegio, ideal para mostrar tu espíritu escolar."
+    },
+    {
+      "id": 2,
+      "nombre": "Pin Colegial",
+      "precio": 4.50,
+      "imagen": "./media/tienda/pin.png",
+      "descripcion": "Pin metálico con el logo del colegio, perfecto para mochilas y uniformes."
+    },
+    {
+      "id": 3,
+      "nombre": "Taza Colegial",
+      "precio": 8.75,
+      "imagen": "./media/tienda/taza.png",
+      "descripcion": "Taza de cerámica con diseño exclusivo del colegio, capacidad 350ml."
+    },
+    {
+      "id": 4,
+      "nombre": "Camiseta Deportiva",
+      "precio": 22.99,
+      "imagen": "./media/tienda/camiseta.png",
+      "descripcion": "Camiseta oficial para actividades deportivas, disponible en varios talles."
+    },
+    {
+      "id": 5,
+      "nombre": "Libreta Colegial",
+      "precio": 6.25,
+      "imagen": "./media/tienda/libreta.png",
+      "descripcion": "Libreta de 100 hojas con tapa dura y logo del colegio."
+    },
+    {
+      "id": 6,
+      "nombre": "Llavero Escolar",
+      "precio": 3.99,
+      "imagen": "./media/tienda/llavero.png",
+      "descripcion": "Llavero de acero inoxidable con grabado del logo del colegio."
+    },
+    {
+      "id": 7,
+      "nombre": "Gorra con Logo",
+      "precio": 15.50,
+      "imagen": "./media/tienda/gorra.png",
+      "descripcion": "Gorra ajustable con bordado del escudo del colegio."
+    },
+    {
+      "id": 8,
+      "nombre": "Cartel Colegial",
+      "precio": 18.99,
+      "imagen": "./media/tienda/cartel.png",
+      "descripcion": "Cartel decorativo para habitación, tamaño 30x45cm."
+    },
+    {
+      "id": 9,
+      "nombre": "Mochila Escolar",
+      "precio": 35.00,
+      "imagen": "./media/tienda/mochila.png",
+      "descripcion": "Mochila resistente con compartimentos y logo bordado."
+    },
+    {
+      "id": 10,
+      "nombre": "Pulsera Identificación",
+      "precio": 2.99,
+      "imagen": "./media/tienda/pulsera.png",
+      "descripcion": "Pulsera de silicona con nombre del colegio y datos de contacto."
+    },
+    {
+      "id": 12,
+      "nombre": "Pendrive Colegial",
+      "precio": 14.99,
+      "imagen": "./media/tienda/pendrive.png",
+      "descripcion": "Pendrive USB 32GB con logo grabado, ideal para trabajos escolares."
+    },
+    {
+      "id": 13,
+      "nombre": "Agenda Escolar",
+      "precio": 9.99,
+      "imagen": "./media/tienda/agenda.png",
+      "descripcion": "Agenda académica con calendario escolar y diseño institucional."
+    },
+    {
+      "id": 14,
+      "nombre": "Parche Bordado",
+      "precio": 5.25,
+      "imagen": "./media/tienda/parche.png",
+      "descripcion": "Parche bordado para coser en prendas, varios diseños disponibles."
+    },
+    {
+      "id": 15,
+      "nombre": "Termo Colegial",
+      "precio": 16.75,
+      "imagen": "./media/tienda/termo.png",
+      "descripcion": "Termo de acero inoxidable 500ml con logo serigrafiado."
+    },
+    {
+      "id": 16,
+      "nombre": "Póster Deportivo",
+      "precio": 8.50,
+      "imagen": "./media/tienda/poster.png",
+      "descripcion": "Póster de equipos deportivos del colegio, tamaño A3."
+    },
+    {
+      "id": 17,
+      "nombre": "Bolsa Ecológica",
+      "precio": 6.99,
+      "imagen": "./media/tienda/bolsa.png",
+      "descripcion": "Bolsa reutilizable con mensaje ecológico del colegio."
+    },
+    {
+      "id": 20,
+      "nombre": "Medalla Conmemorativa",
+      "precio": 24.99,
+      "imagen": "./media/tienda/medalla.png",
+      "descripcion": "Medalla conmemorativa del aniversario del colegio."
+    }
+  ]
+}

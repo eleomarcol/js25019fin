@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Colegio San Miguel - Contacto</title>
+  <!-- Favicon -->
+  <link rel="icon" href="./media/isologo_icon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="./media/isologo_icon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="./media/isologo.png" />
+  <!-- Hojas de estilo -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="./css/header.css" />
+  <link rel="stylesheet" href="./css/estilos.css" />
+  <link rel="stylesheet" href="./css/contacto.css" />
+  <script src="./js/scroll-header.js"></script>
+</head>
+
+<body>
+  <!-- ==================================== -->
+  <main>
+    <div class="contacto-contenedor">
+      <div class="contacto-header">
+        <h1>Contacta con Nosotros</h1>
+        <p>
+          Estamos aquí para responder todas tus preguntas y escuchar tus
+          sugerencias.
+        </p>
+        <p>
+          ¡No dudes en ponerte en contacto con nuestro equipo!
+        </p>
+      </div>
+
+      <div class="contacto-grid">
+        <div class="contacto-card">
+          <h3>Información de Contacto</h3>
+          <ul class="contacto-info">
+            <li>
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Av. Siempre Viva 1234, Buenos Aires, Argentina</span>
+            </li>
+            <li>
+              <i class="fas fa-phone"></i>
+              <span>(011) 4785-9632</span>
+            </li>
+            <li>
+              <i class="fas fa-envelope"></i>
+              <span>info@colegiosanmiguelarc.edu.ar</span>
+            </li>
+            <li>
+              <i class="fas fa-clock"></i>
+              <span>Lunes a Viernes: 7:30 - 18:30 hs</span>
+            </li>
+            <li>
+              <i class="fas fa-user-tie"></i>
+              <span>Secretaría: secretaria@colegiosanmiguelarc.edu.ar</span>
+            </li>
+            <li>
+              <i class="fas fa-graduation-cap"></i>
+              <span>Admisiones: admisiones@colegiosanmiguelarc.edu.ar</span>
+            </li>
+          </ul>
+
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+        <div class="contacto-card">
+          <h3>Horarios de Atención</h3>
+          <ul class="contacto-info">
+            <li>
+              <i class="fas fa-door-open"></i>
+              <span><strong>Administración:</strong><br> Lunes a Viernes 8:00 - 16:00
+                hs</span>
+            </li>
+            <li>
+              <i class="fas fa-book"></i>
+              <span><strong>Biblioteca:</strong><br> Lunes a Viernes 9:00 - 17:00
+                hs</span>
+            </li>
+            <li>
+              <i class="fas fa-utensils"></i>
+              <span><strong>Comedor:</strong><br> Lunes a Viernes 11:30 - 14:00
+                hs</span>
+            </li>
+            <li>
+              <i class="fas fa-user-graduate"></i>
+              <span><strong>Dirección Académica:</strong><br> Martes y Jueves 10:00 -
+                12:00 hs</span>
+            </li>
+            <li>
+              <i class="fas fa-heart"></i>
+              <span><strong>Departamento Psicopedagógico:</strong><br> Miércoles
+                14:00 - 16:00 hs</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contacto-card">
+          <h3>Ubicación</h3>
+          <p>
+            Nuestro colegio se encuentra en el corazón del barrio, con fácil
+            acceso desde diferentes puntos de la ciudad.
+          </p>
+          <div class="map-contenedor">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15165.931811602168!2d-58.40263502824186!3d-34.66310774141034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1749134442794!5m2!1ses!2sar"
+              width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+
+      <div class="formulario-contacto">
+        <h2>Formulario de Contacto</h2>
+        <form>
+          <div class="form-group">
+            <label for="nombre">Nombre Completo</label>
+            <input type="text" id="nombre" name="nombre" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Correo Electrónico</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+
+          <div class="form-group">
+            <label for="telefono">Teléfono (opcional)</label>
+            <input type="tel" id="telefono" name="telefono" />
+          </div>
+
+          <div class="form-group">
+            <label for="asunto">Asunto</label>
+            <select id="asunto" name="asunto" required>
+              <option value="">Seleccione un asunto...</option>
+              <option value="admisiones">Admisiones e Inscripciones</option>
+              <option value="academico">Consulta Académica</option>
+              <option value="administrativo">Consulta Administrativa</option>
+              <option value="actividades">
+                Actividades Extracurriculares
+              </option>
+              <option value="otros">Otros</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+          </div>
+
+          <button type="submit" class="submit-btn">Enviar Mensaje</button>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <!-- ==================================== -->
+  <footer class="simple-footer">
+    &copy; 2025 Colegio San Miguel. Todos los derechos reservados.
+  </footer>
+  <!-- Carga el header -->
+  <script src="./js/loadHeaderEnContact.js"></script>
+</body>
+
+</html>

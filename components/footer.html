@@ -1,0 +1,70 @@
+<footer>
+  <div class="footer-contenedor">
+    <div class="footer-left">
+      <div class="footer-section">
+        <h3>Contacto</h3>
+        <ul class="contactos-info">
+          <li>
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Av. Siempre Viva 1234, Buenos Aires, Argentina</span>
+          </li>
+          <li>
+            <i class="fas fa-phone"></i>
+            <span>(011) 4785-9632</span>
+          </li>
+          <li>
+            <i class="fas fa-envelope"></i>
+            <span>info@colegiosanmiguel.edu.ar</span>
+          </li>
+          <li>
+            <i class="fas fa-clock"></i>
+            <span>Lunes a Viernes: 7:30 - 18:30 hs</span>
+          </li>
+        </ul>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-right">
+      <div class="footer-section">
+        <h3>Ubicación</h3>
+        <div class="map-contenedor">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15165.931811602168!2d-58.40263502824186!3d-34.66310774141034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1749134442794!5m2!1ses!2sar"
+            width="600" height="450" style="border: 0" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" alt="Mapa del colegio"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="copyright">
+    &copy; 2025 Colegio San Miguel. Todos los derechos reservados.
+  </div>
+</footer>
+
+<script>
+  // Marcar como activo el enlace correspondiente a la página actual
+  document.addEventListener('DOMContentLoaded', function () {
+    const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+    const navLinks = {
+      'index.html': 'nav-inicio',
+      'actividades.html': 'nav-actividades',
+      'calendario.html': 'nav-calendario',
+      'tienda.html': 'nav-tienda',
+      'contacto.html': 'nav-contacto'
+    };
+
+    if (navLinks[currentPage]) {
+      const activeLink = document.getElementById(navLinks[currentPage]);
+      if (activeLink) {
+        activeLink.classList.add('active');
+      }
+    }
+  });
+</script>

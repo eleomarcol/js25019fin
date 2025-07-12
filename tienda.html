@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Colegio San Miguel - Tienda</title>
+  <link rel="icon" href="./media/isologo_icon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="./media/isologo_icon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="./css/estilos.css" />
+  <link rel="stylesheet" href="./css/header.css" />
+  <link rel="stylesheet" href="./css/tienda.css" />
+  <script src="./js/scroll-header.js"></script>
+</head>
+
+<body>
+
+  <main>
+    <div class="tienda-contenedor">
+      <h1 class="tienda-titulo">Tienda del Colegio</h1>
+      <p class="tienda-subtitulo">
+        Adquiere productos exclusivos con nuestro logo y apoya las actividades
+        del colegio
+      </p>
+
+      <div class="productos-grid" id="productos-container">
+        <!-- Los productos se cargan con JavaScript -->
+      </div>
+    </div>
+  </main>
+
+  <script src="./js/carrito.js"></script>
+  <script src="./js/tienda.js"></script>
+
+  <!-- Modal del Carrito -->
+  <div id="carrito-modal" class="carrito-modal">
+    <div class="carrito-contenido">
+      <div class="carrito-header">
+        <h3>Tu Carrito</h3>
+        <span class="cerrar-carrito">&times;</span>
+      </div>
+      <div class="carrito-body" id="carrito-items">
+        <!-- Los items del carrito aparecerán aquí -->
+      </div>
+      <div class="carrito-footer">
+        <div class="carrito-total">
+          <span>Total:</span>
+          <span id="carrito-total">$0.00</span>
+        </div>
+        <button id="finalizar-compra" class="carrito-boton">
+          Finalizar Compra
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Icono del carrito flotante -->
+  <div class="carrito-flotante" id="carrito-icono">
+    <i class="fas fa-shopping-cart"></i>
+    <span class="carrito-contador" id="carrito-contador">0</span>
+  </div>
+
+  <!-- Carga el header y el footer -->
+  <script src="./js/loadHeaderAndFooter.js"></script>
+</body>
+
+</html>
