@@ -41,3 +41,6 @@ Sitio web oficial del Colegio San Miguel, una plataforma informativa que muestra
 1. **Clonar el repositorio**:
    ```bash
    git clone https://github.com/eleomarcol/js25019fin.git
+
+2. **Visualizar el repositorio**:
+   [Entrega final](https://eleomarcol.github.io/js25019fin/)  
